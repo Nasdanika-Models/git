@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecore:EPackage xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" name="git" nsURI="ecore://nasdanika.org/models/git" nsPrefix="org.nasdanika.models.git">
+  <eClassifiers xsi:type="ecore:EClass" name="Repository">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="remotes" upperBound="-1"
+        eType="#//Remote" containment="true" eKeys="#//Remote/name"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="references" upperBound="-1"
+        eType="#//Reference" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="objects" upperBound="-1"
+        eType="#//GitObject" containment="true"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Reference"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Remote">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" lowerBound="1" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="GitObject" abstract="true">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag" eSuperTypes="#//Reference"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tree" eSuperTypes="#//GitObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Blob" eSuperTypes="#//GitObject"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Commit" eSuperTypes="#//GitObject">
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tree" lowerBound="1" eType="#//Tree"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="parents" upperBound="-1"
+        eType="#//Commit" eOpposite="#//Commit/children"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="children" upperBound="-1"
+        eType="#//Commit" eOpposite="#//Commit/parents"/>
+  </eClassifiers>
+</ecore:EPackage>

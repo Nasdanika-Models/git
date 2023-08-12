@@ -1,2 +1,2 @@
-# git
+# Git
 Git object model - blob, tree, commit, reference, branch, tag, ...
