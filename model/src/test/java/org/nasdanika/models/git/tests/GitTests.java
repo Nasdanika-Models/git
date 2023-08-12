@@ -1,25 +1,16 @@
 package org.nasdanika.models.git.tests;
 
 import java.io.File;
-import java.net.URI;
-import java.net.URL;
-import java.nio.file.Path;
-import java.nio.file.Paths;
-import java.util.Map.Entry;
-import java.util.Optional;
 
-import org.eclipse.jgit.internal.storage.commitgraph.CommitGraph;
-import org.eclipse.jgit.lib.Constants;
-import org.eclipse.jgit.lib.ObjectDatabase;
-import org.eclipse.jgit.lib.ObjectReader;
+import org.eclipse.jgit.api.Git;
 import org.eclipse.jgit.lib.Ref;
 import org.eclipse.jgit.lib.RefDatabase;
 import org.eclipse.jgit.lib.Repository;
-import org.eclipse.jgit.lib.StoredConfig;
-import org.eclipse.jgit.revwalk.RevWalk;
+import org.eclipse.jgit.revwalk.RevCommit;
+import org.eclipse.jgit.revwalk.RevTree;
 import org.eclipse.jgit.storage.file.FileRepositoryBuilder;
+import org.eclipse.jgit.treewalk.TreeWalk;
 import org.junit.jupiter.api.Test;
-import org.nasdanika.models.git.GitFactory;
 
 public class GitTests {
 	
@@ -28,16 +19,41 @@ public class GitTests {
 		File file = new File("..").getCanonicalFile();
 		FileRepositoryBuilder repositoryBuilder = new FileRepositoryBuilder().readEnvironment();
 		repositoryBuilder.findGitDir(file);
-		if (repositoryBuilder.getGitDir() != null) {
+		File gitDir = repositoryBuilder.getGitDir();
+		System.out.println(gitDir.getCanonicalPath());
+		if (gitDir != null) {
 			try (Repository repository = repositoryBuilder.build()) {
-				try (RevWalk revWalk = new RevWalk(repository)) {
-					revWalk.forEach(rc -> {
-						System.out.println(rc);
-					});
+//				try (Git git = new Git(repository)) {
+//					Iterable<RevCommit> log = git.log().call();
+//					for (RevCommit logEntry: log) {
+//						System.out.println("------------------");
+//						System.out.println(logEntry.getAuthorIdent());
+//						System.out.println(logEntry.getCommitterIdent());
+//						System.out.println(logEntry.getFooterLines());
+//						System.out.println(logEntry.getFullMessage());
+//						System.out.println(logEntry.getId());
+//						System.out.println(logEntry.getName());
+//						System.out.println(logEntry.getParents());
+//						System.out.println(logEntry.getShortMessage()); // Not needed?
+//						RevTree tree = logEntry.getTree();
+//						System.out.println(tree);
+//						try (TreeWalk treeWalk = new TreeWalk(repository)) {
+//							treeWalk.addTree(tree);
+//							treeWalk.setRecursive(true);
+//							// TODO
+//						}												
+//					}
+//				}
+				
+				RefDatabase refDb = repository.getRefDatabase();
+				for (Ref ref: refDb.getRefs()) {
+					System.out.println(ref);
+					System.out.println(ref.getTarget());
+					System.out.println("---");
 				}
 				
-				org.nasdanika.models.git.Repository modelRepository = GitFactory.eINSTANCE.createRepository();
-				RefDatabase refDatabase = repository.getRefDatabase();
+//				org.nasdanika.models.git.Repository modelRepository = GitFactory.eINSTANCE.createRepository();
+//				RefDatabase refDatabase = repository.getRefDatabase();
 				
 //				StoredConfig config = repository.getConfig();
 //				for (String remote: repository.getRemoteNames()) {
