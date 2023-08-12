@@ -14,6 +14,8 @@ import org.nasdanika.models.git.Commit;
 import org.nasdanika.models.git.GitFactory;
 import org.nasdanika.models.git.GitObject;
 import org.nasdanika.models.git.GitPackage;
+import org.nasdanika.models.git.Person;
+import org.nasdanika.models.git.PersonIdent;
 import org.nasdanika.models.git.Reference;
 import org.nasdanika.models.git.Remote;
 import org.nasdanika.models.git.Repository;
@@ -76,6 +78,20 @@ public class GitPackageImpl extends EPackageImpl implements GitPackage {
 	 * @generated
 	 */
 	private EClass commitEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass personEClass = null;
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	private EClass personIdentEClass = null;
 
 	/**
 	 * Creates an instance of the model <b>Package</b>, registered with
@@ -175,6 +191,16 @@ public class GitPackageImpl extends EPackageImpl implements GitPackage {
 	@Override
 	public EReference getRepository_Objects() {
 		return (EReference)repositoryEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getRepository_Persons() {
+		return (EReference)repositoryEClass.getEStructuralFeatures().get(3);
 	}
 
 	/**
@@ -303,6 +329,76 @@ public class GitPackageImpl extends EPackageImpl implements GitPackage {
 	 * @generated
 	 */
 	@Override
+	public EClass getPerson() {
+		return personEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getPerson_Name() {
+		return (EAttribute)personEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getPerson_EMail() {
+		return (EAttribute)personEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getPerson_Activity() {
+		return (EReference)personEClass.getEStructuralFeatures().get(2);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EClass getPersonIdent() {
+		return personIdentEClass;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EAttribute getPersonIdent_When() {
+		return (EAttribute)personIdentEClass.getEStructuralFeatures().get(0);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public EReference getPersonIdent_Person() {
+		return (EReference)personIdentEClass.getEStructuralFeatures().get(1);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
 	public GitFactory getGitFactory() {
 		return (GitFactory)getEFactoryInstance();
 	}
@@ -330,6 +426,7 @@ public class GitPackageImpl extends EPackageImpl implements GitPackage {
 		createEReference(repositoryEClass, REPOSITORY__REMOTES);
 		createEReference(repositoryEClass, REPOSITORY__REFERENCES);
 		createEReference(repositoryEClass, REPOSITORY__OBJECTS);
+		createEReference(repositoryEClass, REPOSITORY__PERSONS);
 
 		referenceEClass = createEClass(REFERENCE);
 
@@ -349,6 +446,15 @@ public class GitPackageImpl extends EPackageImpl implements GitPackage {
 		createEReference(commitEClass, COMMIT__TREE);
 		createEReference(commitEClass, COMMIT__PARENTS);
 		createEReference(commitEClass, COMMIT__CHILDREN);
+
+		personEClass = createEClass(PERSON);
+		createEAttribute(personEClass, PERSON__NAME);
+		createEAttribute(personEClass, PERSON__EMAIL);
+		createEReference(personEClass, PERSON__ACTIVITY);
+
+		personIdentEClass = createEClass(PERSON_IDENT);
+		createEAttribute(personIdentEClass, PERSON_IDENT__WHEN);
+		createEReference(personIdentEClass, PERSON_IDENT__PERSON);
 	}
 
 	/**
@@ -390,6 +496,8 @@ public class GitPackageImpl extends EPackageImpl implements GitPackage {
 		getRepository_Remotes().getEKeys().add(this.getRemote_Name());
 		initEReference(getRepository_References(), this.getReference(), null, "references", null, 0, -1, Repository.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getRepository_Objects(), this.getGitObject(), null, "objects", null, 0, -1, Repository.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getRepository_Persons(), this.getPerson(), null, "persons", null, 0, -1, Repository.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, IS_COMPOSITE, !IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		getRepository_Persons().getEKeys().add(this.getPerson_EMail());
 
 		initEClass(referenceEClass, Reference.class, "Reference", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
 
@@ -409,6 +517,15 @@ public class GitPackageImpl extends EPackageImpl implements GitPackage {
 		initEReference(getCommit_Tree(), this.getTree(), null, "tree", null, 1, 1, Commit.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCommit_Parents(), this.getCommit(), this.getCommit_Children(), "parents", null, 0, -1, Commit.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 		initEReference(getCommit_Children(), this.getCommit(), this.getCommit_Parents(), "children", null, 0, -1, Commit.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(personEClass, Person.class, "Person", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getPerson_Name(), ecorePackage.getEString(), "name", null, 0, 1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEAttribute(getPerson_EMail(), ecorePackage.getEString(), "eMail", null, 0, 1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getPerson_Activity(), this.getPersonIdent(), this.getPersonIdent_Person(), "activity", null, 0, -1, Person.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+
+		initEClass(personIdentEClass, PersonIdent.class, "PersonIdent", !IS_ABSTRACT, !IS_INTERFACE, IS_GENERATED_INSTANCE_CLASS);
+		initEAttribute(getPersonIdent_When(), ecorePackage.getEDate(), "when", null, 0, 1, PersonIdent.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_UNSETTABLE, !IS_ID, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
+		initEReference(getPersonIdent_Person(), this.getPerson(), this.getPerson_Activity(), "person", null, 0, 1, PersonIdent.class, !IS_TRANSIENT, !IS_VOLATILE, IS_CHANGEABLE, !IS_COMPOSITE, IS_RESOLVE_PROXIES, !IS_UNSETTABLE, IS_UNIQUE, !IS_DERIVED, IS_ORDERED);
 
 		// Create resource
 		createResource(eNS_URI);

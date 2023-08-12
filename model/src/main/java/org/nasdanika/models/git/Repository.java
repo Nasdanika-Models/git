@@ -17,6 +17,7 @@ import org.eclipse.emf.ecore.EObject;
  *   <li>{@link org.nasdanika.models.git.Repository#getRemotes <em>Remotes</em>}</li>
  *   <li>{@link org.nasdanika.models.git.Repository#getReferences <em>References</em>}</li>
  *   <li>{@link org.nasdanika.models.git.Repository#getObjects <em>Objects</em>}</li>
+ *   <li>{@link org.nasdanika.models.git.Repository#getPersons <em>Persons</em>}</li>
  * </ul>
  *
  * @see org.nasdanika.models.git.GitPackage#getRepository()
@@ -60,4 +61,16 @@ public interface Repository extends EObject {
 	 * @generated
 	 */
 	EList<GitObject> getObjects();
+
+	/**
+	 * Returns the value of the '<em><b>Persons</b></em>' containment reference list.
+	 * The list contents are of type {@link org.nasdanika.models.git.Person}.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the value of the '<em>Persons</em>' containment reference list.
+	 * @see org.nasdanika.models.git.GitPackage#getRepository_Persons()
+	 * @model containment="true" keys="eMail"
+	 * @generated
+	 */
+	EList<Person> getPersons();
 } // Repository

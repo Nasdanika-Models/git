@@ -85,6 +85,24 @@ public interface GitFactory extends EFactory {
 	Commit createCommit();
 
 	/**
+	 * Returns a new object of class '<em>Person</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Person</em>'.
+	 * @generated
+	 */
+	Person createPerson();
+
+	/**
+	 * Returns a new object of class '<em>Person Ident</em>'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return a new object of class '<em>Person Ident</em>'.
+	 * @generated
+	 */
+	PersonIdent createPersonIdent();
+
+	/**
 	 * Returns the package supported by this factory.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->

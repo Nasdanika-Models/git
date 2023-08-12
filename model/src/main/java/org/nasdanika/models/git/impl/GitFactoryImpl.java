@@ -63,6 +63,8 @@ public class GitFactoryImpl extends EFactoryImpl implements GitFactory {
 			case GitPackage.TREE: return createTree();
 			case GitPackage.BLOB: return createBlob();
 			case GitPackage.COMMIT: return createCommit();
+			case GitPackage.PERSON: return createPerson();
+			case GitPackage.PERSON_IDENT: return createPersonIdent();
 			default:
 				throw new IllegalArgumentException("The class '" + eClass.getName() + "' is not a valid classifier");
 		}
@@ -143,6 +145,28 @@ public class GitFactoryImpl extends EFactoryImpl implements GitFactory {
 	public Commit createCommit() {
 		CommitImpl commit = new CommitImpl();
 		return commit;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public Person createPerson() {
+		PersonImpl person = new PersonImpl();
+		return person;
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
+	@Override
+	public PersonIdent createPersonIdent() {
+		PersonIdentImpl personIdent = new PersonIdentImpl();
+		return personIdent;
 	}
 
 	/**

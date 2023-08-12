@@ -12,6 +12,7 @@
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/remotes"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/references"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/objects"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/persons"/>
     </genClasses>
     <genClasses ecoreClass="git.ecore#//Reference"/>
     <genClasses ecoreClass="git.ecore#//Remote">
@@ -27,6 +28,15 @@
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference git.ecore#//Commit/tree"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference git.ecore#//Commit/parents"/>
       <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference git.ecore#//Commit/children"/>
+    </genClasses>
+    <genClasses ecoreClass="git.ecore#//Person">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute git.ecore#//Person/name"/>
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute git.ecore#//Person/eMail"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference git.ecore#//Person/activity"/>
+    </genClasses>
+    <genClasses ecoreClass="git.ecore#//PersonIdent">
+      <genFeatures createChild="false" ecoreFeature="ecore:EAttribute git.ecore#//PersonIdent/when"/>
+      <genFeatures notify="false" createChild="false" propertySortChoices="true" ecoreFeature="ecore:EReference git.ecore#//PersonIdent/person"/>
     </genClasses>
   </genPackages>
 </genmodel:GenModel>

@@ -94,13 +94,22 @@ public interface GitPackage extends EPackage {
 	int REPOSITORY__OBJECTS = 2;
 
 	/**
+	 * The feature id for the '<em><b>Persons</b></em>' containment reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int REPOSITORY__PERSONS = 3;
+
+	/**
 	 * The number of structural features of the '<em>Repository</em>' class.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
 	 * @generated
 	 * @ordered
 	 */
-	int REPOSITORY_FEATURE_COUNT = 3;
+	int REPOSITORY_FEATURE_COUNT = 4;
 
 	/**
 	 * The number of operations of the '<em>Repository</em>' class.
@@ -382,6 +391,107 @@ public interface GitPackage extends EPackage {
 
 
 	/**
+	 * The meta object id for the '{@link org.nasdanika.models.git.impl.PersonImpl <em>Person</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.nasdanika.models.git.impl.PersonImpl
+	 * @see org.nasdanika.models.git.impl.GitPackageImpl#getPerson()
+	 * @generated
+	 */
+	int PERSON = 8;
+
+	/**
+	 * The feature id for the '<em><b>Name</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__NAME = 0;
+
+	/**
+	 * The feature id for the '<em><b>EMail</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__EMAIL = 1;
+
+	/**
+	 * The feature id for the '<em><b>Activity</b></em>' reference list.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON__ACTIVITY = 2;
+
+	/**
+	 * The number of structural features of the '<em>Person</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON_FEATURE_COUNT = 3;
+
+	/**
+	 * The number of operations of the '<em>Person</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON_OPERATION_COUNT = 0;
+
+	/**
+	 * The meta object id for the '{@link org.nasdanika.models.git.impl.PersonIdentImpl <em>Person Ident</em>}' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @see org.nasdanika.models.git.impl.PersonIdentImpl
+	 * @see org.nasdanika.models.git.impl.GitPackageImpl#getPersonIdent()
+	 * @generated
+	 */
+	int PERSON_IDENT = 9;
+
+	/**
+	 * The feature id for the '<em><b>When</b></em>' attribute.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON_IDENT__WHEN = 0;
+
+	/**
+	 * The feature id for the '<em><b>Person</b></em>' reference.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON_IDENT__PERSON = 1;
+
+	/**
+	 * The number of structural features of the '<em>Person Ident</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON_IDENT_FEATURE_COUNT = 2;
+
+	/**
+	 * The number of operations of the '<em>Person Ident</em>' class.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 * @ordered
+	 */
+	int PERSON_IDENT_OPERATION_COUNT = 0;
+
+	/**
 	 * Returns the meta object for class '{@link org.nasdanika.models.git.Repository <em>Repository</em>}'.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -423,6 +533,17 @@ public interface GitPackage extends EPackage {
 	 * @generated
 	 */
 	EReference getRepository_Objects();
+
+	/**
+	 * Returns the meta object for the containment reference list '{@link org.nasdanika.models.git.Repository#getPersons <em>Persons</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the containment reference list '<em>Persons</em>'.
+	 * @see org.nasdanika.models.git.Repository#getPersons()
+	 * @see #getRepository()
+	 * @generated
+	 */
+	EReference getRepository_Persons();
 
 	/**
 	 * Returns the meta object for class '{@link org.nasdanika.models.git.Reference <em>Reference</em>}'.
@@ -550,6 +671,81 @@ public interface GitPackage extends EPackage {
 	EReference getCommit_Children();
 
 	/**
+	 * Returns the meta object for class '{@link org.nasdanika.models.git.Person <em>Person</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Person</em>'.
+	 * @see org.nasdanika.models.git.Person
+	 * @generated
+	 */
+	EClass getPerson();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.nasdanika.models.git.Person#getName <em>Name</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>Name</em>'.
+	 * @see org.nasdanika.models.git.Person#getName()
+	 * @see #getPerson()
+	 * @generated
+	 */
+	EAttribute getPerson_Name();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.nasdanika.models.git.Person#getEMail <em>EMail</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>EMail</em>'.
+	 * @see org.nasdanika.models.git.Person#getEMail()
+	 * @see #getPerson()
+	 * @generated
+	 */
+	EAttribute getPerson_EMail();
+
+	/**
+	 * Returns the meta object for the reference list '{@link org.nasdanika.models.git.Person#getActivity <em>Activity</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference list '<em>Activity</em>'.
+	 * @see org.nasdanika.models.git.Person#getActivity()
+	 * @see #getPerson()
+	 * @generated
+	 */
+	EReference getPerson_Activity();
+
+	/**
+	 * Returns the meta object for class '{@link org.nasdanika.models.git.PersonIdent <em>Person Ident</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for class '<em>Person Ident</em>'.
+	 * @see org.nasdanika.models.git.PersonIdent
+	 * @generated
+	 */
+	EClass getPersonIdent();
+
+	/**
+	 * Returns the meta object for the attribute '{@link org.nasdanika.models.git.PersonIdent#getWhen <em>When</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the attribute '<em>When</em>'.
+	 * @see org.nasdanika.models.git.PersonIdent#getWhen()
+	 * @see #getPersonIdent()
+	 * @generated
+	 */
+	EAttribute getPersonIdent_When();
+
+	/**
+	 * Returns the meta object for the reference '{@link org.nasdanika.models.git.PersonIdent#getPerson <em>Person</em>}'.
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @return the meta object for the reference '<em>Person</em>'.
+	 * @see org.nasdanika.models.git.PersonIdent#getPerson()
+	 * @see #getPersonIdent()
+	 * @generated
+	 */
+	EReference getPersonIdent_Person();
+
+	/**
 	 * Returns the factory that creates the instances of the model.
 	 * <!-- begin-user-doc -->
 	 * <!-- end-user-doc -->
@@ -602,6 +798,13 @@ public interface GitPackage extends EPackage {
 		 * @generated
 		 */
 		EReference REPOSITORY__OBJECTS = eINSTANCE.getRepository_Objects();
+		/**
+		 * The meta object literal for the '<em><b>Persons</b></em>' containment reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference REPOSITORY__PERSONS = eINSTANCE.getRepository_Persons();
 		/**
 		 * The meta object literal for the '{@link org.nasdanika.models.git.impl.ReferenceImpl <em>Reference</em>}' class.
 		 * <!-- begin-user-doc -->
@@ -700,6 +903,59 @@ public interface GitPackage extends EPackage {
 		 * @generated
 		 */
 		EReference COMMIT__CHILDREN = eINSTANCE.getCommit_Children();
+		/**
+		 * The meta object literal for the '{@link org.nasdanika.models.git.impl.PersonImpl <em>Person</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.nasdanika.models.git.impl.PersonImpl
+		 * @see org.nasdanika.models.git.impl.GitPackageImpl#getPerson()
+		 * @generated
+		 */
+		EClass PERSON = eINSTANCE.getPerson();
+		/**
+		 * The meta object literal for the '<em><b>Name</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PERSON__NAME = eINSTANCE.getPerson_Name();
+		/**
+		 * The meta object literal for the '<em><b>EMail</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PERSON__EMAIL = eINSTANCE.getPerson_EMail();
+		/**
+		 * The meta object literal for the '<em><b>Activity</b></em>' reference list feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PERSON__ACTIVITY = eINSTANCE.getPerson_Activity();
+		/**
+		 * The meta object literal for the '{@link org.nasdanika.models.git.impl.PersonIdentImpl <em>Person Ident</em>}' class.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @see org.nasdanika.models.git.impl.PersonIdentImpl
+		 * @see org.nasdanika.models.git.impl.GitPackageImpl#getPersonIdent()
+		 * @generated
+		 */
+		EClass PERSON_IDENT = eINSTANCE.getPersonIdent();
+		/**
+		 * The meta object literal for the '<em><b>When</b></em>' attribute feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EAttribute PERSON_IDENT__WHEN = eINSTANCE.getPersonIdent_When();
+		/**
+		 * The meta object literal for the '<em><b>Person</b></em>' reference feature.
+		 * <!-- begin-user-doc -->
+		 * <!-- end-user-doc -->
+		 * @generated
+		 */
+		EReference PERSON_IDENT__PERSON = eINSTANCE.getPersonIdent_Person();
 
 	}
 

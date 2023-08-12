@@ -13,6 +13,7 @@ import org.eclipse.emf.ecore.impl.MinimalEObjectImpl;
 import org.eclipse.emf.ecore.util.InternalEList;
 import org.nasdanika.models.git.GitObject;
 import org.nasdanika.models.git.GitPackage;
+import org.nasdanika.models.git.Person;
 import org.nasdanika.models.git.Reference;
 import org.nasdanika.models.git.Remote;
 import org.nasdanika.models.git.Repository;
@@ -28,6 +29,7 @@ import org.nasdanika.models.git.Repository;
  *   <li>{@link org.nasdanika.models.git.impl.RepositoryImpl#getRemotes <em>Remotes</em>}</li>
  *   <li>{@link org.nasdanika.models.git.impl.RepositoryImpl#getReferences <em>References</em>}</li>
  *   <li>{@link org.nasdanika.models.git.impl.RepositoryImpl#getObjects <em>Objects</em>}</li>
+ *   <li>{@link org.nasdanika.models.git.impl.RepositoryImpl#getPersons <em>Persons</em>}</li>
  * </ul>
  *
  * @generated
@@ -100,6 +102,17 @@ public class RepositoryImpl extends MinimalEObjectImpl.Container implements Repo
 	 * <!-- end-user-doc -->
 	 * @generated
 	 */
+	@SuppressWarnings("unchecked")
+	@Override
+	public EList<Person> getPersons() {
+		return (EList<Person>)eDynamicGet(GitPackage.REPOSITORY__PERSONS, GitPackage.Literals.REPOSITORY__PERSONS, true, true);
+	}
+
+	/**
+	 * <!-- begin-user-doc -->
+	 * <!-- end-user-doc -->
+	 * @generated
+	 */
 	@Override
 	public NotificationChain eInverseRemove(InternalEObject otherEnd, int featureID, NotificationChain msgs) {
 		switch (featureID) {
@@ -109,6 +122,8 @@ public class RepositoryImpl extends MinimalEObjectImpl.Container implements Repo
 				return ((InternalEList<?>)getReferences()).basicRemove(otherEnd, msgs);
 			case GitPackage.REPOSITORY__OBJECTS:
 				return ((InternalEList<?>)getObjects()).basicRemove(otherEnd, msgs);
+			case GitPackage.REPOSITORY__PERSONS:
+				return ((InternalEList<?>)getPersons()).basicRemove(otherEnd, msgs);
 		}
 		return super.eInverseRemove(otherEnd, featureID, msgs);
 	}
@@ -127,6 +142,8 @@ public class RepositoryImpl extends MinimalEObjectImpl.Container implements Repo
 				return getReferences();
 			case GitPackage.REPOSITORY__OBJECTS:
 				return getObjects();
+			case GitPackage.REPOSITORY__PERSONS:
+				return getPersons();
 		}
 		return super.eGet(featureID, resolve, coreType);
 	}
@@ -152,6 +169,10 @@ public class RepositoryImpl extends MinimalEObjectImpl.Container implements Repo
 				getObjects().clear();
 				getObjects().addAll((Collection<? extends GitObject>)newValue);
 				return;
+			case GitPackage.REPOSITORY__PERSONS:
+				getPersons().clear();
+				getPersons().addAll((Collection<? extends Person>)newValue);
+				return;
 		}
 		super.eSet(featureID, newValue);
 	}
@@ -173,6 +194,9 @@ public class RepositoryImpl extends MinimalEObjectImpl.Container implements Repo
 			case GitPackage.REPOSITORY__OBJECTS:
 				getObjects().clear();
 				return;
+			case GitPackage.REPOSITORY__PERSONS:
+				getPersons().clear();
+				return;
 		}
 		super.eUnset(featureID);
 	}
@@ -191,6 +215,8 @@ public class RepositoryImpl extends MinimalEObjectImpl.Container implements Repo
 				return !getReferences().isEmpty();
 			case GitPackage.REPOSITORY__OBJECTS:
 				return !getObjects().isEmpty();
+			case GitPackage.REPOSITORY__PERSONS:
+				return !getPersons().isEmpty();
 		}
 		return super.eIsSet(featureID);
 	}

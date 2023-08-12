@@ -6,8 +6,16 @@
         eType="#//Remote" containment="true" eKeys="#//Remote/name"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="references" upperBound="-1"
         eType="#//Reference" containment="true"/>
-    <eStructuralFeatures xsi:type="ecore:EReference" name="objects" upperBound="-1"
-        eType="#//GitObject" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="commits" upperBound="-1"
+        eType="#//Commit" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="persons" upperBound="-1"
+        eType="#//Person" containment="true" eKeys="#//Person/eMail"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="blobs" upperBound="-1"
+        eType="#//Blob" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="trees" upperBound="-1"
+        eType="#//Tree" containment="true"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="tags" upperBound="-1" eType="#//Tag"
+        containment="true"/>
   </eClassifiers>
   <eClassifiers xsi:type="ecore:EClass" name="Reference"/>
   <eClassifiers xsi:type="ecore:EClass" name="Remote">
@@ -16,7 +24,7 @@
   <eClassifiers xsi:type="ecore:EClass" name="GitObject" abstract="true">
     <eStructuralFeatures xsi:type="ecore:EAttribute" name="id" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//ELong"/>
   </eClassifiers>
-  <eClassifiers xsi:type="ecore:EClass" name="Tag" eSuperTypes="#//Reference"/>
+  <eClassifiers xsi:type="ecore:EClass" name="Tag" eSuperTypes="#//GitObject"/>
   <eClassifiers xsi:type="ecore:EClass" name="Tree" eSuperTypes="#//GitObject"/>
   <eClassifiers xsi:type="ecore:EClass" name="Blob" eSuperTypes="#//GitObject"/>
   <eClassifiers xsi:type="ecore:EClass" name="Commit" eSuperTypes="#//GitObject">
@@ -25,5 +33,16 @@
         eType="#//Commit" eOpposite="#//Commit/children"/>
     <eStructuralFeatures xsi:type="ecore:EReference" name="children" upperBound="-1"
         eType="#//Commit" eOpposite="#//Commit/parents"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="Person">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="name" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="eMail" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EString"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="activity" upperBound="-1"
+        eType="#//PersonIdent" eOpposite="#//PersonIdent/person"/>
+  </eClassifiers>
+  <eClassifiers xsi:type="ecore:EClass" name="PersonIdent">
+    <eStructuralFeatures xsi:type="ecore:EAttribute" name="when" eType="ecore:EDataType http://www.eclipse.org/emf/2002/Ecore#//EDate"/>
+    <eStructuralFeatures xsi:type="ecore:EReference" name="person" eType="#//Person"
+        eOpposite="#//Person/activity"/>
   </eClassifiers>
 </ecore:EPackage>
