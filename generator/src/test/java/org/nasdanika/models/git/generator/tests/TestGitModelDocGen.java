@@ -100,7 +100,7 @@ public class TestGitModelDocGen {
 		
 		WidgetFactory gitLabProcessor = null;
 		Collection<Throwable> resolveFailures = new ArrayList<>();		
-		URI baseActionURI = URI.createURI("https://git.models.nasdanika.org/");
+		URI baseActionURI = URI.createURI("local://git.models.nasdanika.org/");
 		
 		Map<EPackage, URI> packageURIMap = Map.ofEntries(
 			Map.entry(EcorePackage.eINSTANCE, URI.createURI("https://ecore.models.nasdanika.org/")),			
