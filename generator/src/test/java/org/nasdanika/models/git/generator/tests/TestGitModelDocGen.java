@@ -79,7 +79,7 @@ public class TestGitModelDocGen {
 		context.register(DiagramGenerator.class, new PlantUMLDiagramGenerator());
 		Consumer<Diagnostic> diagnosticConsumer = d -> d.dump(System.out, 0);
 		List<Function<URI,Action>> actionProviders = new ArrayList<>();		
-		EcoreGenGitProcessorsFactory ecoreGenGitLabProcessorFactory = new EcoreGenGitProcessorsFactory(context);		
+		EcoreGenGitProcessorsFactory ecoreGenGitProcessorFactory = new EcoreGenGitProcessorsFactory(context);		
 		EcoreNodeProcessorFactory ecoreNodeProcessorFactory = new EcoreNodeProcessorFactory(
 				context, 
 				(uri, pm) -> {
@@ -92,13 +92,13 @@ public class TestGitModelDocGen {
 					return null;
 				},
 				diagnosticConsumer,
-				ecoreGenGitLabProcessorFactory);
+				ecoreGenGitProcessorFactory);
 		
 		EObjectNodeProcessorReflectiveFactory<WidgetFactory, WidgetFactory> eObjectNodeProcessorReflectiveFactory = new EObjectNodeProcessorReflectiveFactory<>(ecoreNodeProcessorFactory);
 		EObjectReflectiveProcessorFactoryProvider eObjectReflectiveProcessorFactoryProvider = new EObjectReflectiveProcessorFactoryProvider(eObjectNodeProcessorReflectiveFactory);
 		Map<Element, ProcessorInfo<Object>> registry = eObjectReflectiveProcessorFactoryProvider.getFactory().createProcessors(configs.values(), false, progressMonitor);
 		
-		WidgetFactory gitLabProcessor = null;
+		WidgetFactory gitProcessor = null;
 		Collection<Throwable> resolveFailures = new ArrayList<>();		
 		URI baseActionURI = URI.createURI("local://git.models.nasdanika.org/");
 		
@@ -121,7 +121,7 @@ public class TestGitModelDocGen {
 							widgetFactoryNodeProcessor.resolve(packageURIMap.get(topLevelPackage), progressMonitor);
 							
 							if (topLevelPackage == GitPackage.eINSTANCE) { 							
-								gitLabProcessor = widgetFactoryNodeProcessor;
+								gitProcessor = widgetFactoryNodeProcessor;
 							}
 						}
 					}
@@ -145,7 +145,7 @@ public class TestGitModelDocGen {
 		
 		File output = new File(actionModelsDir, "git.xmi");
 		Resource actionModelResource = actionModelsResourceSet.createResource(URI.createFileURI(output.getAbsolutePath()));
-		Collection<Label> labels = gitLabProcessor.createLabelsSupplier().call(progressMonitor, diagnosticConsumer);
+		Collection<Label> labels = gitProcessor.createLabelsSupplier().call(progressMonitor, diagnosticConsumer);
 		for (Label label: labels) {
 			if (label instanceof Link) {
 				Link link = (Link) label;
