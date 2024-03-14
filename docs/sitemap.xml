@@ -2,372 +2,427 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" >
   <url>
     <loc>https://git.models.nasdanika.org/circular-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2024-01-28T10:37:32.701-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:16.028-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://git.models.nasdanika.org/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.695-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:16.028-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://git.models.nasdanika.org/classifiers.html</loc>
-    <lastmod>2024-01-28T10:37:32.691-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:16.012-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://git.models.nasdanika.org/default-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2024-01-28T10:37:32.699-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:16.028-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://git.models.nasdanika.org/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.693-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:16.028-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:16.028-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://git.models.nasdanika.org/force-layout-graph-with-dependencies-and-subpackages.html</loc>
-    <lastmod>2024-01-28T10:37:32.704-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:16.028-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://git.models.nasdanika.org/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.697-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:16.028-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://git.models.nasdanika.org/glossary.html</loc>
-    <lastmod>2024-01-28T10:37:32.711-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:16.043-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://git.models.nasdanika.org/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.540-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:15.871-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/0/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.659-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Blob/attributes.html</loc>
+    <lastmod>2024-03-11T12:17:15.871-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/0/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.658-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Blob/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.887-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/0/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.661-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Blob/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.887-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/0/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.654-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Blob/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:15.887-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/0/load-specification.html</loc>
-    <lastmod>2024-01-28T10:37:32.663-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Blob/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.903-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/0/references.html</loc>
-    <lastmod>2024-01-28T10:37:32.656-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Blob/index.html</loc>
+    <lastmod>2024-03-11T12:17:15.871-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/1/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.639-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Blob/inheritance.html</loc>
+    <lastmod>2024-03-11T12:17:15.871-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/1/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.637-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Blob/load-specification.html</loc>
+    <lastmod>2024-03-11T12:17:15.903-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/1/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.641-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Commit/attributes.html</loc>
+    <lastmod>2024-03-11T12:17:15.903-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/1/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.634-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Commit/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.918-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/1/inheritance.html</loc>
-    <lastmod>2024-01-28T10:37:32.635-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Commit/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.918-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/2/attributes.html</loc>
-    <lastmod>2024-01-28T10:37:32.645-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Commit/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:15.903-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/2/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.648-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Commit/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.918-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/2/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.647-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Commit/index.html</loc>
+    <lastmod>2024-03-11T12:17:15.903-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/2/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.650-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Commit/inheritance.html</loc>
+    <lastmod>2024-03-11T12:17:15.903-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/2/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.644-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Commit/load-specification.html</loc>
+    <lastmod>2024-03-11T12:17:15.918-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/2/load-specification.html</loc>
-    <lastmod>2024-01-28T10:37:32.652-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Commit/references.html</loc>
+    <lastmod>2024-03-11T12:17:15.903-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/3/attributes.html</loc>
-    <lastmod>2024-01-28T10:37:32.597-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/GitObject/attributes.html</loc>
+    <lastmod>2024-03-11T12:17:15.918-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/3/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.605-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/GitObject/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.934-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/3/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.602-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/GitObject/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.918-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/3/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.606-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/GitObject/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:15.918-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/3/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.594-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/GitObject/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.934-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/3/inheritance.html</loc>
-    <lastmod>2024-01-28T10:37:32.599-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/GitObject/index.html</loc>
+    <lastmod>2024-03-11T12:17:15.918-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/4/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.673-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/GitObject/inheritance.html</loc>
+    <lastmod>2024-03-11T12:17:15.918-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/4/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.671-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Person/attributes.html</loc>
+    <lastmod>2024-03-11T12:17:15.934-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/4/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.675-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Person/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.934-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/4/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.668-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Person/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.934-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/4/inheritance.html</loc>
-    <lastmod>2024-01-28T10:37:32.669-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Person/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:15.934-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/5/attributes.html</loc>
-    <lastmod>2024-01-28T10:37:32.680-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Person/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/5/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.685-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Person/index.html</loc>
+    <lastmod>2024-03-11T12:17:15.934-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/5/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.683-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Person/load-specification.html</loc>
+    <lastmod>2024-03-11T12:17:15.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/5/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.687-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Person/references.html</loc>
+    <lastmod>2024-03-11T12:17:15.934-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/5/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.678-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/PersonIdent/attributes.html</loc>
+    <lastmod>2024-03-11T12:17:15.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/5/inheritance.html</loc>
-    <lastmod>2024-01-28T10:37:32.682-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/PersonIdent/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/5/load-specification.html</loc>
-    <lastmod>2024-01-28T10:37:32.688-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/PersonIdent/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/6/attributes.html</loc>
-    <lastmod>2024-01-28T10:37:32.547-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/PersonIdent/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:15.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/6/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.558-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/PersonIdent/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/6/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.555-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/PersonIdent/index.html</loc>
+    <lastmod>2024-03-11T12:17:15.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/6/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.559-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/PersonIdent/load-specification.html</loc>
+    <lastmod>2024-03-11T12:17:15.965-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/6/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.544-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/PersonIdent/references.html</loc>
+    <lastmod>2024-03-11T12:17:15.949-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/6/inheritance.html</loc>
-    <lastmod>2024-01-28T10:37:32.551-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Reference/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.965-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/6/load-specification.html</loc>
-    <lastmod>2024-01-28T10:37:32.568-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Reference/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.965-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/7/attributes.html</loc>
-    <lastmod>2024-01-28T10:37:32.574-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Reference/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:15.965-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/7/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.586-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Reference/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.965-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/7/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.583-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Reference/index.html</loc>
+    <lastmod>2024-03-11T12:17:15.965-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/7/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.589-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Reference/inheritance.html</loc>
+    <lastmod>2024-03-11T12:17:15.965-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/7/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.572-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Remote/attributes.html</loc>
+    <lastmod>2024-03-11T12:17:15.981-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/7/inheritance.html</loc>
-    <lastmod>2024-01-28T10:37:32.576-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Remote/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.981-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/7/load-specification.html</loc>
-    <lastmod>2024-01-28T10:37:32.591-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Remote/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.981-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/7/references.html</loc>
-    <lastmod>2024-01-28T10:37:32.581-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Remote/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:15.981-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/8/attributes.html</loc>
-    <lastmod>2024-01-28T10:37:32.610-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Remote/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.981-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/8/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.615-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Remote/index.html</loc>
+    <lastmod>2024-03-11T12:17:15.965-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/8/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.614-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Remote/load-specification.html</loc>
+    <lastmod>2024-03-11T12:17:15.981-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/8/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.617-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Repository/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/8/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.608-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Repository/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/8/load-specification.html</loc>
-    <lastmod>2024-01-28T10:37:32.619-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Repository/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:15.981-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/8/references.html</loc>
-    <lastmod>2024-01-28T10:37:32.612-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Repository/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/9/attributes.html</loc>
-    <lastmod>2024-01-28T10:37:32.623-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Repository/index.html</loc>
+    <lastmod>2024-03-11T12:17:15.981-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/9/circular-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.627-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Repository/load-specification.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/9/default-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.625-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Repository/references.html</loc>
+    <lastmod>2024-03-11T12:17:15.981-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/9/force-layout-graph.html</loc>
-    <lastmod>2024-01-28T10:37:32.630-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tag/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/9/index.html</loc>
-    <lastmod>2024-01-28T10:37:32.621-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tag/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/9/load-specification.html</loc>
-    <lastmod>2024-01-28T10:37:32.631-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tag/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
-    <loc>https://git.models.nasdanika.org/references/eClassifiers/9/references.html</loc>
-    <lastmod>2024-01-28T10:37:32.624-05:00</lastmod>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tag/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tag/index.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tag/inheritance.html</loc>
+    <lastmod>2024-03-11T12:17:15.996-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tree/attributes.html</loc>
+    <lastmod>2024-03-11T12:17:16.012-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tree/circular-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:16.012-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tree/default-graph.html</loc>
+    <lastmod>2024-03-11T12:17:16.012-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tree/diagram.html</loc>
+    <lastmod>2024-03-11T12:17:16.012-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tree/force-layout-graph.html</loc>
+    <lastmod>2024-03-11T12:17:16.012-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tree/index.html</loc>
+    <lastmod>2024-03-11T12:17:16.012-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tree/inheritance.html</loc>
+    <lastmod>2024-03-11T12:17:16.012-04:00</lastmod>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://git.models.nasdanika.org/references/eClassifiers/Tree/load-specification.html</loc>
+    <lastmod>2024-03-11T12:17:16.012-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://git.models.nasdanika.org/search.html</loc>
-    <lastmod>2024-01-28T10:37:32.707-05:00</lastmod>
+    <lastmod>2024-03-11T12:17:16.028-04:00</lastmod>
     <changefreq>weekly</changefreq>
   </url>
 </urlset>
