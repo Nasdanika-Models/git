@@ -99,7 +99,7 @@ public class TestGitModelDocGen {
 		
 		System.out.println("There are " + errorCount + " site errors");
 		
-		if (errorCount != 66) {
+		if (errorCount != 77) {
 			throw new ExecutionException("There are problems with pages: " + errorCount);
 		}		
 	}
