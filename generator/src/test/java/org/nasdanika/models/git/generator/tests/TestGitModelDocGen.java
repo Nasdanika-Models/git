@@ -23,7 +23,7 @@ import org.nasdanika.common.NullProgressMonitor;
 import org.nasdanika.common.ProgressMonitor;
 import org.nasdanika.html.model.app.Action;
 import org.nasdanika.html.model.app.gen.AppSiteGenerator;
-import org.nasdanika.models.ecore.graph.processors.EcoreActionGenerator;
+import org.nasdanika.models.ecore.graph.processors.EcoreHtmlAppGenerator;
 import org.nasdanika.models.ecore.graph.processors.EcoreNodeProcessorFactory;
 import org.nasdanika.models.git.GitPackage;
 import org.nasdanika.models.git.processors.EcoreGenGitProcessorsFactory;
@@ -64,12 +64,12 @@ public class TestGitModelDocGen {
 		actionModelsDir.mkdirs();
 		File output = new File(actionModelsDir, "git.xmi");
 
-		EcoreActionGenerator eCoreActionGenerator = new EcoreActionGenerator(
+		EcoreHtmlAppGenerator eCoreHtmlAppGenerator = new EcoreHtmlAppGenerator(
 				GitPackage.eINSTANCE, 
 				packageURIMap, 
 				ecoreNodeProcessorFactory);
 		
-		eCoreActionGenerator.generateActionModel(diagnosticConsumer, output, progressMonitor);
+		eCoreHtmlAppGenerator.generateHtmlAppModel(diagnosticConsumer, output, progressMonitor);
 				
 		String rootActionResource = "actions.yml";
 		URI rootActionURI = URI.createFileURI(new File(rootActionResource).getAbsolutePath());//.appendFragment("/");
