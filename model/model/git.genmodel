@@ -11,8 +11,11 @@
     <genClasses ecoreClass="git.ecore#//Repository">
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/remotes"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/references"/>
-      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/objects"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/commits"/>
       <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/persons"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/blobs"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/trees"/>
+      <genFeatures property="None" children="true" createChild="true" ecoreFeature="ecore:EReference git.ecore#//Repository/tags"/>
     </genClasses>
     <genClasses ecoreClass="git.ecore#//Reference"/>
     <genClasses ecoreClass="git.ecore#//Remote">
