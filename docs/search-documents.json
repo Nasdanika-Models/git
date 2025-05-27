@@ -1,122 +1,142 @@
 {
   "references/eClassifiers/GitObject/inheritance.html": {
     "path": "GitObject/Inheritance",
-    "link-uuid": "74cb3268-e9d3-4b8a-b92c-ad975f2c583b",
+    "link-uuid": "baf96132-c503-4c7a-ae4b-362c13437cf6",
     "title": "Inheritance",
-    "content": "Subtypes "
+    "content": "Subtypes ",
+    "timestamp": 1747875510287
   },
   "references/eClassifiers/Commit/inheritance.html": {
     "path": "Commit/Inheritance",
-    "link-uuid": "d43a0234-ed96-4ba7-a882-e679292f15d6",
+    "link-uuid": "46fa7cc8-0abc-4c8a-89b4-25b7369e9908",
     "title": "Inheritance",
-    "content": "Supertypes "
+    "content": "Supertypes ",
+    "timestamp": 1747875510270
   },
   "references/eClassifiers/Tree/inheritance.html": {
     "path": "Tree/Inheritance",
-    "link-uuid": "bfe1c5e5-a92b-4aa9-9f9e-a51ce1749088",
+    "link-uuid": "41a5e78a-a3ac-4218-80c0-8baff73adc88",
     "title": "Inheritance",
-    "content": "Supertypes "
+    "content": "Supertypes ",
+    "timestamp": 1747875510365
   },
   "references/eClassifiers/PersonIdent/references/eStructuralFeatures/when/index.html": {
     "path": "PersonIdent/Attributes/when",
-    "link-uuid": "1c704108-8277-41da-b15b-a0bf8f9ae623",
+    "link-uuid": "3f7c7ee6-7e30-41f5-bc43-c0470383febf",
     "title": "when",
-    "content": "Type EDate Multiplicity 0..1"
+    "content": "Type EDate Multiplicity 0..1",
+    "timestamp": 1747875510314
   },
   "references/eClassifiers/Repository/references/eStructuralFeatures/references/index.html": {
     "path": "Repository/References/references",
-    "link-uuid": "74689ef5-a84c-4471-9eb6-62f6b9651cdf",
+    "link-uuid": "d5de66a3-74d7-4943-9ad6-a0866bb57f3b",
     "title": "references",
-    "content": "Type Reference Multiplicity 0..*"
+    "content": "Type Reference Multiplicity 0..*",
+    "timestamp": 1747875510346
   },
   "references/eClassifiers/Tag/inheritance.html": {
     "path": "Tag/Inheritance",
-    "link-uuid": "b242b54d-059d-401e-a530-c6422fae0734",
+    "link-uuid": "2d4b4f48-d2e2-4917-acae-eec5a01b9ba2",
     "title": "Inheritance",
-    "content": "Supertypes "
+    "content": "Supertypes ",
+    "timestamp": 1747875510356
   },
   "references/eClassifiers/Repository/references/eStructuralFeatures/objects/index.html": {
     "path": "Repository/References/objects",
-    "link-uuid": "707c2204-1b64-4f9c-b179-d7454938ad66",
+    "link-uuid": "4b58c723-a10e-4658-85eb-1cd8bd0b739f",
     "title": "objects",
-    "content": "Type GitObject Multiplicity 0..*"
+    "content": "Type GitObject Multiplicity 0..*",
+    "timestamp": 1747875510343
   },
   "references/eClassifiers/Blob/inheritance.html": {
     "path": "Blob/Inheritance",
-    "link-uuid": "e4613586-fa79-4030-a24f-eae137dbe38c",
+    "link-uuid": "a9fd897d-9b87-4f4d-a33d-d3e058990ddf",
     "title": "Inheritance",
-    "content": "Supertypes "
+    "content": "Supertypes ",
+    "timestamp": 1747875510258
   },
   "references/eClassifiers/Person/references/eStructuralFeatures/activity/index.html": {
     "path": "Person/References/activity",
-    "link-uuid": "75baaa7f-f0cf-4029-9a42-9dacb0053367",
+    "link-uuid": "5aafcafc-bdf1-424a-978d-712b36d354fb",
     "title": "activity",
-    "content": "Type PersonIdent Multiplicity 0..*"
+    "content": "Type PersonIdent Multiplicity 0..*",
+    "timestamp": 1747875510299
   },
   "references/eClassifiers/Remote/references/eStructuralFeatures/name/index.html": {
     "path": "Remote/Attributes/name",
-    "link-uuid": "f9c1940b-15f8-4ac4-8ec7-df6d4980571f",
+    "link-uuid": "bcc65138-d82b-472b-8da3-1c02b99f96a2",
     "title": "name",
-    "content": "Type EString Multiplicity 1"
+    "content": "Type EString Multiplicity 1",
+    "timestamp": 1747875510333
   },
   "references/eClassifiers/Repository/references/eStructuralFeatures/persons/index.html": {
     "path": "Repository/References/persons",
-    "link-uuid": "a16d2eec-b86b-41c1-abe1-7174a6f3f7d4",
+    "link-uuid": "c1a9eafd-3d1d-4d59-8f84-72d86fb0ccb5",
     "title": "persons",
-    "content": "Type Person Multiplicity 0..*"
+    "content": "Type Person Multiplicity 0..*",
+    "timestamp": 1747875510345
   },
   "references/eClassifiers/Commit/references/eStructuralFeatures/children/index.html": {
     "path": "Commit/References/children",
-    "link-uuid": "b824b5e7-37a0-43d2-9297-b62d4db4673a",
+    "link-uuid": "fec8d263-42a4-473c-b789-2816e9d355e4",
     "title": "children",
-    "content": "Type Commit Multiplicity 0..*"
+    "content": "Type Commit Multiplicity 0..*",
+    "timestamp": 1747875510273
   },
   "references/eClassifiers/Person/references/eStructuralFeatures/name/index.html": {
     "path": "Person/Attributes/name",
-    "link-uuid": "c122056a-87f4-4b17-abd0-23727c9bf309",
+    "link-uuid": "adffcbc0-2b65-4a51-ac4e-2f8575487622",
     "title": "name",
-    "content": "Type EString Multiplicity 0..1"
+    "content": "Type EString Multiplicity 0..1",
+    "timestamp": 1747875510302
   },
   "references/eClassifiers/Person/references/eStructuralFeatures/eMail/index.html": {
     "path": "Person/Attributes/eMail",
-    "link-uuid": "13656564-4afe-429a-8a9a-a47b8ad7090f",
+    "link-uuid": "75c3ba9a-443b-4245-a0a6-d18958901a8f",
     "title": "eMail",
-    "content": "Type EString Multiplicity 0..1"
+    "content": "Type EString Multiplicity 0..1",
+    "timestamp": 1747875510300
   },
   "references/eClassifiers/PersonIdent/references/eStructuralFeatures/person/index.html": {
     "path": "PersonIdent/References/person",
-    "link-uuid": "176de5d4-30a8-4e79-858a-5eb7d8ac10ee",
+    "link-uuid": "c2982679-df55-4b4c-9ab0-b51e3596fe13",
     "title": "person",
-    "content": "Type Person Multiplicity 0..1"
+    "content": "Type Person Multiplicity 0..1",
+    "timestamp": 1747875510313
   },
   "references/eClassifiers/Commit/references/eStructuralFeatures/tree/index.html": {
     "path": "Commit/References/tree",
-    "link-uuid": "9994022f-e38c-4456-966f-9bebd80fefaf",
+    "link-uuid": "b4709036-cef5-4fd0-802b-b8a3c96e11ad",
     "title": "tree",
-    "content": "Type Tree Multiplicity 1"
+    "content": "Type Tree Multiplicity 1",
+    "timestamp": 1747875510275
   },
   "references/eClassifiers/GitObject/references/eStructuralFeatures/id/index.html": {
     "path": "GitObject/Attributes/id",
-    "link-uuid": "3f5169d4-1929-4f3f-a441-37815ce6c780",
+    "link-uuid": "76ad8bb3-850e-4182-ae20-cdcda8ea1665",
     "title": "id",
-    "content": "Type ELong Multiplicity 0..1"
+    "content": "Type ELong Multiplicity 0..1",
+    "timestamp": 1747875510289
   },
   "references/eClassifiers/Repository/references/eStructuralFeatures/remotes/index.html": {
     "path": "Repository/References/remotes",
-    "link-uuid": "492d397c-bfb9-4ca7-9e37-791d04ab483b",
+    "link-uuid": "ed196964-dcda-4ea1-9986-77f3648b8e12",
     "title": "remotes",
-    "content": "Type Remote Multiplicity 0..*"
+    "content": "Type Remote Multiplicity 0..*",
+    "timestamp": 1747875510347
   },
   "references/eClassifiers/Commit/references/eStructuralFeatures/parents/index.html": {
     "path": "Commit/References/parents",
-    "link-uuid": "2b985702-1a73-4a75-830d-11c7731398fe",
+    "link-uuid": "a2fc4364-e1bc-4348-92e8-5815943a4c3d",
     "title": "parents",
-    "content": "Type Commit Multiplicity 0..*"
+    "content": "Type Commit Multiplicity 0..*",
+    "timestamp": 1747875510273
   },
   "references/eClassifiers/Reference/inheritance.html": {
     "path": "Reference/Inheritance",
-    "link-uuid": "1e76e36c-bad1-4412-b325-e0aff6a60f6e",
+    "link-uuid": "0334989f-7e1b-4718-8311-df75ad66a5e9",
     "title": "Inheritance",
-    "content": "Subtypes "
+    "content": "Subtypes ",
+    "timestamp": 1747875510324
   }
 }
